@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: rgb(12, 145, 143);
+    color: rgb(3, 32, 59);
+    height: 100px;
+    
+}
+#players{
+    margin-top: 25px;
+}
+a{
+    color: rgb(161, 194, 224);
+    text-decoration: none;
+}
+nav ul li{
+    margin-left: 300px;
+}
+nav ul{
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-evenly;
+}
+nav ul li{
+    list-style: none;
+}
+#outer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#out button{
+    background-color: rgb(12, 5, 39);
+    color: rgb(202, 199, 213);
+}
+#out{
+    
+    margin-top: 80px;
+
+    width: 600px;
+    display: grid;
+   
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 150px 150px 150px;
+    
+  
+}
+#result{
+    margin-top: 30px;
+}
